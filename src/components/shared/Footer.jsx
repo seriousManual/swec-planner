@@ -32,7 +32,7 @@ const Footer = () => (
       <a href="https://www.methodpark.de"><img src="/sponsors/mp.png" alt="Method Park"/></a>
 
       <div>
-        <a href="https://www.restaurant-frau-b.de/"><img src="/sponsors/frauub.png" alt="Frau B. Food and Flavour Eventcatering" /></a>
+        <a href="https://www.restaurant-frau-b.de/"><img src="/sponsors/fraub.png" alt="Frau B. Food and Flavour Eventcatering" /></a>
         <a href="https://www.datev.de"><img src="/sponsors/datev.jpg" alt="datev"/></a>
         <a href="https://www.innoq.com/de/"><img src="/sponsors/innoq.jpg" alt="INNOQ"/></a>
         <a href="https://www.jetbrains.com/"><img src="/sponsors/jetbrains.png" alt="jetbrains"/></a>
