@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactSwipe from 'react-swipe';
-import roomEG from './BuildingMap_EG_pdt.png';
-import room1OG from './BuildingMap_1OG_pdt.png';
-import room2OG from './BuildingMap_2OG_pdt.png';
+import roomEG from './BuildingMap_EG.jpg';
+import room1OG from './BuildingMap_1OG.jpg';
+import room2OG from './BuildingMap_2OG.jpg';
 
 import { FaArrowCircleRight, FaArrowCircleLeft } from 'react-icons/lib/fa';
 import classnames from 'classnames'
