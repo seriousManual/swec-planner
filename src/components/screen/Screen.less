@@ -8,25 +8,29 @@
     height: 4rem;
     transition: background-color 5s;
 
+    &.first {
+      height: 2rem;
+      border: 0;
+    }
+
     &.active {
       background-color: var(--background-tertiary);
       color: var(--background-primary);
     }
 
     th, td {
-      padding: 0.5rem;
       font-size: 0.8rem;
     }
 
     th {
+      padding: 0.1rem;
       white-space: nowrap;
-      //we switch background and foreground on purpose here
       background-color: var(--text-primary);
       color: var(--background-primary);
-      border-bottom: 3px solid var(--text-primary);
     }
 
     td {
+      padding: 0.3rem;
       border-bottom: 3px solid var(--background-tertiary);
     }
   }

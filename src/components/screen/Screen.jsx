@@ -12,7 +12,7 @@ function Screen(props) {
   return (
     <table id="screen">
       <tbody>
-        <tr>
+        <tr className="first">
           <th></th>
           {rooms.map(room => <th key={room}>{room}</th>)}
         </tr>
