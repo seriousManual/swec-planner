@@ -1,6 +1,7 @@
 @import '../../variables.less';
 
 .floor-plan-carousel-container {
+  margin-bottom: 4rem;
   text-align: center;
 
   .carousel {
@@ -13,8 +14,10 @@
     }
 
     .slide-controls {
+      margin: 1rem 0;
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
+      align-items: center;
 
       button {
         color: var(--button-primary);
@@ -24,8 +27,14 @@
         cursor: pointer;
         padding: 0px;
 
-        &.current {
-          color: var(--button-active);
+        &.bullet {
+          img {
+            width: 2rem;
+          }
+
+          &.current {
+            color: var(--button-active);
+          }
         }
 
         font-size: 1rem;

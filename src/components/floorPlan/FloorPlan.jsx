@@ -4,7 +4,11 @@ import roomEG from './BuildingMap_EG.jpg';
 import room1OG from './BuildingMap_1OG.jpg';
 import room2OG from './BuildingMap_2OG.jpg';
 
-import { FaArrowCircleRight, FaArrowCircleLeft } from 'react-icons/lib/fa';
+import { 
+  FaArrowCircleLeft as LeftArrow,
+  FaArrowCircleRight as RightArrow,
+  FaCircle as Circle
+} from 'react-icons/lib/fa';
 import classnames from 'classnames'
 import Header from '../shared/Header';
 
@@ -50,29 +54,33 @@ export default class RoomPlan extends React.Component {
   }
 
   renderControls() {
-    const prevButton = () => (<button onClick={() => { this.prevImage(); return false;}} aria-label="Previous plan">
-      <FaArrowCircleLeft />
-    </button>);
-    const nextButton = () => (<button onClick={() => { this.nextImage(); return false; }} aria-label="Next plan">
-      <FaArrowCircleRight />
-    </button>);
-    const bulletPoints = () => {
-      return [...Array(this.state.totalImages)].map((_, index) => (
-        <button
-          key={index}
-          aria-label={ 'Goto plan number ' + (index + 1) }
-          onClick={() => {this.gotoImage(index); return false;} }
-          className={ classnames({current: index === this.state.currentImage}) }>
-          &bull;
-        </button>)
+    const bulletPoints = [];
+    for (let index = 0; index < this.state.totalImages; index++) {
+      const className = classnames({
+        bullet: true,
+        current: index === this.state.currentImage
+      });
+
+      bulletPoints.push(
+        <button key={index} onClick={() => this.gotoImage(index)} className={className}>
+          <Circle />
+        </button>
       );
     }
 
-    return (<div className="slide-controls">
-      {prevButton()}
-      {bulletPoints()}
-      {nextButton()}
-    </div>);
+    return (
+      <div className="slide-controls">
+        <button onClick={() => this.prevImage()}>
+          <LeftArrow />
+        </button>
+        
+        {bulletPoints}
+
+        <button onClick={() => this.nextImage()}>
+          <RightArrow />
+        </button>
+      </div>
+    );
   }
 
   render() {
