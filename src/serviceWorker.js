@@ -1,4 +1,8 @@
+import debug from 'debug'
+
 import { clearCaches, fillStaticCache, tryToFetchAndStoreInCache } from './lib/cache';
+
+const localDebug = debug('planner:sw');
 
 /* eslint no-restricted-globals: "off" */
 
@@ -11,13 +15,13 @@ const STATIC_RESOURCES = [
 ].concat(assets);
 
 self.addEventListener('install', () => {
-  console.log('install');
+  localDebug('install');
 
   self.skipWaiting();
 });
 
 self.addEventListener('activate', (event) => {
-  console.log('activate');
+  localDebug('activate');
 
   event.waitUntil((async () => {
     await clearCaches(caches);
@@ -27,22 +31,22 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   const { request } = event;
-  console.log(`fetch: ${request.method} ${request.url}`);
+  localDebug(`fetch: ${request.method} ${request.url}`);
 
   const url = new URL(request.url);
 
   if (request.method.toLowerCase() !== 'get') {
-    console.log('passing non-GET request');
+    localDebug('passing non-GET request');
     return;
   }
 
   if (!url.protocol.startsWith('http')) {
-    console.log('passing non-HTTP(s) request');
+    localDebug('passing non-HTTP(s) request');
     return;
   }
 
   if (url.pathname.startsWith('/sockjs-node/')) {
-    console.log('passing WebSocket request');
+    localDebug('passing WebSocket request');
     return;
   }
 
@@ -61,5 +65,5 @@ self.addEventListener('push', event => {
     .then(clients => {
       clients.forEach(client => notifyClientOfSessionUpdate(client, action));
     })
-    .catch(console.error);
+    .catch(error);
 });
