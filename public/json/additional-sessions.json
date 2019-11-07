@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Fladen, Quiche, Crostini\nWrap im Vollkornmantel\nHand Made Focaccia\nThe Real Cookie Dough\nVanille-Mohn-Joghurtcreme",
+        "room": "Frau B",
+        "start": "2019-11-08T19:00:00+01:00",
+        "end": "2019-11-08T20:30:00+01:00"
+    },
+    {
+        "title": "Arme Ritter 2.0\nBreakfast Bowl\nObstsch\u00fcssel\nWurst, Schinken & K\u00e4se\nHand Made Zimtrolls",
+        "room": "Frau B",
+        "start": "2019-11-09T09:00:00+01:00",
+        "end": "2019-11-09T11:00:00+01:00"
+    },
+    {
+        "title": "Blattsalat der Saison\nGeschnetzeltes vom\n            gl\u00fccklichen Huhn\nVegane Lasagne\nMini Brat\u00e4pfel",
+        "room": "Frau B",
+        "start": "2019-11-09T13:00:00+01:00",
+        "end": "2019-11-09T14:00:00+01:00"
+    },
+    {
+        "title": "Pulled Beef Burger\nFalafel Sandwich (Vegan)\nCheesecake Brownie\nVegane Tarte",
+        "room": "Frau B",
+        "start": "2019-11-09T18:00:00+01:00",
+        "end": "2019-11-09T20:30:00+01:00"
+    },
+    {
+        "title": "Der einzig wahre\n              Wei\u00dfwurst Burger\n\nGeiles Brot",
+        "room": "Frau B",
+        "start": "2019-11-10T09:00:00+01:00",
+        "end": "2019-11-10T10:30:00+01:00"
+    },
+    {
+        "title": "Super Brot\nZweierlei Eint\u00f6pfe\nApfel-Birnen Crumble\nSmoothie",
+        "room": "Frau B",
+        "start": "2019-11-10T14:00:00+01:00",
+        "end": "2019-11-10T14:30:00+01:00"
+    },
+    {
+        "title": "Unrailed-Wettbewerb,\nTowerfall,\nRocket League\n... l\u00e4sst Zockerherzen\n             h\u00f6her schlagen!",
+        "room": "Tie-Fighter",
+        "start": "2019-11-08T17:00:00+01:00",
+        "end": "2019-11-08T23:59:59+01:00"
+    },
+    {
+        "title": "Unrailed-Wettbewerb,\nTowerfall,\nRocket League\n... l\u00e4sst Zockerherzen\n             h\u00f6her schlagen!",
+        "room": "Tie-Fighter",
+        "start": "2019-11-09T00:00:00+01:00",
+        "end": "2019-11-09T23:59:59+01:00"
+    },
+    {
+        "title": "Unrailed-Wettbewerb,\nTowerfall,\nRocket League\n... l\u00e4sst Zockerherzen\n             h\u00f6her schlagen!",
+        "room": "Tie-Fighter",
+        "start": "2019-11-10T00:00:00+01:00",
+        "end": "2019-11-10T14:30:00+01:00"
+    }
+]
