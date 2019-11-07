@@ -1,15 +1,11 @@
-import debug from 'debug'
 import runtime from 'serviceworker-webpack-plugin/lib/runtime';
-
 import { setPushRegistration } from './toast';
-
-const localDebug = debug('planner:sw:setup')
 
 let registration;
 
 export default async function setupSW() {
   if (!navigator.serviceWorker) {
-    localDebug("No service worker support.");
+    console.log("No service worker support.");
     return;
   }
 
@@ -31,12 +27,12 @@ export async function setupPushNotifications() {
   setPushRegistration(registration);
 
   try {
-    localDebug('Unregistering possibly stale subscriptions');
+    console.log('Unregistering possibly stale subscriptions');
     await unregisterExistingSubscriptions(registration);
-    localDebug('Registering for notifications');
+    console.log('Registering for notifications');
     await registerSubscription(registration);
   } catch (e) {
-    localDebug('Registering failed:', e);
+    console.log('Registering failed:', e);
     await reRegisterSubscription(registration);
   }
 }
@@ -56,16 +52,16 @@ async function reRegisterSubscription(registration) {
     return;
   }
 
-  localDebug('The existing subscription is: ', existingSubscription);
-  localDebug('Found an existing subscription -- unsubscribing first.')
+  console.log('The existing subscription is: ', existingSubscription);
+  console.log('Found an existing subscription -- unsubscribing first.')
   existingSubscription.unsubscribe();
 
   try {
-    localDebug('Trying to re-register...');
+    console.log('Trying to re-register...');
     await registerSubscription(registration);
-    localDebug('Re-registering successful');
+    console.log('Re-registering successful');
   } catch (e) {
-    localDebug('Re-registering failed', e);
+    console.log('Re-registering failed', e);
   }
 }
 async function retrievePublicKey() {
@@ -82,7 +78,7 @@ async function retrievePublicKey() {
 }
 
 async function registerSubscription(registration) {
-  localDebug('===== asking for permission');
+  console.log('===== asking for permission');
   await askPermission();
 
   const publicKey = await retrievePublicKey();
@@ -92,10 +88,10 @@ async function registerSubscription(registration) {
     applicationServerKey: urlBase64ToUint8Array(publicKey)
   };
 
-  localDebug('===== sending subscription request');
+  console.log('===== sending subscription request');
   const pushSubscription = await registration.pushManager.subscribe(subscribeOptions);
 
-  localDebug('===== Received PushSubscription: ', JSON.stringify(pushSubscription));
+  console.log('===== Received PushSubscription: ', JSON.stringify(pushSubscription));
   await sendSubscriptionToBackEnd(pushSubscription, publicKey);
 }
 

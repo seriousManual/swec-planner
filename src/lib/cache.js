@@ -1,9 +1,5 @@
-import debug from 'debug'
-
 export const STATIC_CACHE = 'swecache_static';
 export const DYNAMIC_CACHE = 'swecache_dynamic';
-
-const localDebug = debug('planner:cache')
 
 function clearCache(caches, cacheName) {
   caches.delete(cacheName);
@@ -23,10 +19,10 @@ export async function tryGetFromStaticCache(caches, request) {
   const cache = await caches.open(STATIC_CACHE);
   const entry = await cache.match(request);
   if (entry) {
-    localDebug(`found cache entry for ${request.url}`);
+    console.log(`found cache entry for ${request.url}`);
     return entry;
   } else {
-    localDebug(`found no cache entry for ${request.url}, passing request to browser`);
+    console.log(`found no cache entry for ${request.url}, passing request to browser`);
   }
 }
 
