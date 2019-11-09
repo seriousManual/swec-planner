@@ -1,9 +1,13 @@
 const { EventEmitter } = require('events');
 
 const chokidar = require('chokidar');
+const Hypher = require('hypher');
+const german = require('hyphenation.de');
 
 const sessionComparator = require('./sessionsComparator');
 const jsonFileLoader = require('./jsonFileLoader');
+
+const hyphenator = new Hypher(german);
 
 class SessionProvider extends EventEmitter {
   constructor(filePath) {
@@ -12,11 +16,11 @@ class SessionProvider extends EventEmitter {
     this._currentData = [];
 
     this._installFileWatcher();
-    jsonFileLoader.loadJsonFile(this._filePath).then((data) => {
+
+    this.loadSessionData().then(sessions => {
+      this._currentData = sessions;
       this.emit('initialized');
-      this._currentData = data;
-    })
-      .catch(console.error);
+    }).catch(console.error);
   }
 
   _installFileWatcher() {
@@ -27,10 +31,23 @@ class SessionProvider extends EventEmitter {
 
   async _handleFileUpdate() {
     const oldList = this._currentData;
-    this._currentData = await jsonFileLoader.loadJsonFile(this._filePath);      
+    this._currentData = await this.loadSessionData();
 
     sessionComparator(oldList, this._currentData)
       .forEach(change => this.emit('sessionUpdate', change));
+  }
+
+  async loadSessionData() {
+    let sessions = await jsonFileLoader.loadJsonFile(this._filePath);      
+
+    sessions = sessions.map(session => {
+      return {
+        ...session,
+        title: hyphenator.hyphenateText(session.title)
+      };
+    });
+
+    return sessions
   }
 
   async getSessions() {

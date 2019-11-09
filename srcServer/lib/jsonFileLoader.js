@@ -14,8 +14,7 @@ async function loadJsonFile(filePath){
         data = JSON.parse(data);        
         console.log('successfully file reloaded');
         resolve(data);
-      }
-      catch (e) {
+      } catch (e) {
         reject(e);
       }
     });
