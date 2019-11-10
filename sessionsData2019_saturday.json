@@ -1,7 +1,14 @@
+
+// 
+// Backlog 
+// Host, Title, Room, Slot
+// Rene, Brutal Refactoring Game 
+// Simon und Latti, Craftbeer-Tasting nach dem Abendessen
+
 [
   {
     "id": "SWEC19-01-001",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "R2D2",
     "start": "2019-11-09T11:00:00+01:00",
@@ -9,7 +16,7 @@
   },
   {
     "id": "SWEC19-01-002",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Millenium Falcon",
     "start": "2019-11-09T11:00:00+01:00",
@@ -17,39 +24,39 @@
   },
   {
     "id": "SWEC19-01-003",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "ES6 only? Erfahrungsaustausch",
+    "host": "Jörg",
     "room": "Han Solo",
     "start": "2019-11-09T11:00:00+01:00",
     "end": "2019-11-09T12:00:00+01:00"
   },
   {
     "id": "SWEC19-01-004",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Backup mit Restic",
+    "host": "Daniel",
     "room": "DeLorean",
     "start": "2019-11-09T11:00:00+01:00",
     "end": "2019-11-09T12:00:00+01:00"
   },
   {
     "id": "SWEC19-01-005",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Twitter 4 Beginners",
+    "host": "Anna + Latti",
     "room": "Marty McFly",
     "start": "2019-11-09T11:00:00+01:00",
     "end": "2019-11-09T12:00:00+01:00"
   },
   {
     "id": "SWEC19-01-006",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Linux command line tools",
+    "host": "Patrick + Frank",
     "room": "Flux Kompensator",
     "start": "2019-11-09T11:00:00+01:00",
     "end": "2019-11-09T12:00:00+01:00"
   },
   {
     "id": "SWEC19-01-007",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Emmett Brown",
     "start": "2019-11-09T11:00:00+01:00",
@@ -57,23 +64,23 @@
   },
   {
     "id": "SWEC19-01-008",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "3D-Printing Overview",
+    "host": "Alexander",
     "room": "Enterprise",
     "start": "2019-11-09T11:00:00+01:00",
     "end": "2019-11-09T12:00:00+01:00"
   },
   {
     "id": "SWEC19-01-009",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Portfolio Planning mit Kanban",
+    "host": "Gerd",
     "room": "Holodeck",
     "start": "2019-11-09T11:00:00+01:00",
     "end": "2019-11-09T12:00:00+01:00"
   },
   {
     "id": "SWEC19-01-010",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Spock",
     "start": "2019-11-09T11:00:00+01:00",
@@ -89,7 +96,7 @@
 
   {
     "id": "SWEC19-01-011",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "R2D2",
     "start": "2019-11-09T12:00:00+01:00",
@@ -97,7 +104,7 @@
   },
   {
     "id": "SWEC19-01-012",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Millenium Falcon",
     "start": "2019-11-09T12:00:00+01:00",
@@ -105,15 +112,15 @@
   },
   {
     "id": "SWEC19-01-013",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Auch CSS braucht Software-Craftmenship",
+    "host": "Domi",
     "room": "Han Solo",
     "start": "2019-11-09T12:00:00+01:00",
     "end": "2019-11-09T13:00:00+01:00"
   },
   {
     "id": "SWEC19-01-014",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "DeLorean",
     "start": "2019-11-09T12:00:00+01:00",
@@ -121,23 +128,23 @@
   },
   {
     "id": "SWEC19-01-015",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Application Validation (Haskell)",
+    "host": "Christof",
     "room": "Marty McFly",
     "start": "2019-11-09T12:00:00+01:00",
     "end": "2019-11-09T13:00:00+01:00"
   },
   {
     "id": "SWEC19-01-016",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Zeitwürfel",
+    "host": "Laura und Chris",
     "room": "Flux Kompensator",
     "start": "2019-11-09T12:00:00+01:00",
     "end": "2019-11-09T13:00:00+01:00"
   },
   {
     "id": "SWEC19-01-017",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Emmett Brown",
     "start": "2019-11-09T12:00:00+01:00",
@@ -145,24 +152,24 @@
   },
   {
     "id": "SWEC19-01-018",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Screen Reader ausprobieren",
+    "host": "Florian",
     "room": "Enterprise",
     "start": "2019-11-09T12:00:00+01:00",
     "end": "2019-11-09T13:00:00+01:00"
   },
   {
     "id": "SWEC19-01-019",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Nicht-Entwickler Selbsthilfegruppe",
+    "host": "Severin",
     "room": "Holodeck",
     "start": "2019-11-09T12:00:00+01:00",
     "end": "2019-11-09T13:00:00+01:00"
   },
   {
     "id": "SWEC19-01-020",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "DevOps-Tools",
+    "host": "Tobias",
     "room": "Spock",
     "start": "2019-11-09T12:00:00+01:00",
     "end": "2019-11-09T13:00:00+01:00"
@@ -179,7 +186,7 @@
 
   {
     "id": "SWEC19-01-021",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "R2D2",
     "start": "2019-11-09T14:00:00+01:00",
@@ -187,7 +194,7 @@
   },
   {
     "id": "SWEC19-01-022",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Millenium Falcon",
     "start": "2019-11-09T14:00:00+01:00",
@@ -195,15 +202,15 @@
   },
   {
     "id": "SWEC19-01-023",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Statische Codeanalyse",
+    "host": "Felix",
     "room": "Han Solo",
     "start": "2019-11-09T14:00:00+01:00",
     "end": "2019-11-09T15:00:00+01:00"
   },
   {
     "id": "SWEC19-01-024",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "DeLorean",
     "start": "2019-11-09T14:00:00+01:00",
@@ -211,48 +218,48 @@
   },
   {
     "id": "SWEC19-01-025",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Evolutionäre Algorithmen",
+    "host": "Manuel",
     "room": "Marty McFly",
     "start": "2019-11-09T14:00:00+01:00",
     "end": "2019-11-09T15:00:00+01:00"
   },
   {
     "id": "SWEC19-01-026",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Tesla IOT",
+    "host": "Tobias",
     "room": "Flux Kompensator",
     "start": "2019-11-09T14:00:00+01:00",
     "end": "2019-11-09T15:00:00+01:00"
   },
   {
     "id": "SWEC19-01-027",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Boring Software Manifesto + No Microservices?",
+    "host": "Sandra + Dominik",
     "room": "Emmett Brown",
     "start": "2019-11-09T14:00:00+01:00",
     "end": "2019-11-09T15:00:00+01:00"
   },
   {
     "id": "SWEC19-01-028",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "License Linting mit Reuse",
+    "host": "Florian",
     "room": "Enterprise",
     "start": "2019-11-09T14:00:00+01:00",
     "end": "2019-11-09T15:00:00+01:00"
   },
   {
     "id": "SWEC19-01-029",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Cookie-Klicker-Klon mit Elm",
+    "host": "Martin",
     "room": "Holodeck",
     "start": "2019-11-09T14:00:00+01:00",
     "end": "2019-11-09T15:00:00+01:00"
   },
   {
     "id": "SWEC19-01-030",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Let's play the commuter",
+    "host": "Simon",
     "room": "Spock",
     "start": "2019-11-09T14:00:00+01:00",
     "end": "2019-11-09T15:00:00+01:00"
@@ -267,7 +274,7 @@
 
   {
     "id": "SWEC19-01-031",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "R2D2",
     "start": "2019-11-09T15:00:00+01:00",
@@ -275,47 +282,47 @@
   },
   {
     "id": "SWEC19-01-032",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Garmin Watchface",
+    "host": "Iris",
     "room": "Millenium Falcon",
     "start": "2019-11-09T15:00:00+01:00",
     "end": "2019-11-09T16:00:00+01:00"
   },
   {
     "id": "SWEC19-01-033",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Verstreute Teams",
+    "host": "Stefan",
     "room": "Han Solo",
     "start": "2019-11-09T15:00:00+01:00",
     "end": "2019-11-09T16:00:00+01:00"
   },
   {
     "id": "SWEC19-01-034",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "",
+    "host": "Flo",
     "room": "DeLorean",
     "start": "2019-11-09T15:00:00+01:00",
     "end": "2019-11-09T16:00:00+01:00"
   },
   {
     "id": "SWEC19-01-035",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Einführung in Rust",
+    "host": "Flo",
     "room": "Marty McFly",
     "start": "2019-11-09T15:00:00+01:00",
     "end": "2019-11-09T16:00:00+01:00"
   },
   {
     "id": "SWEC19-01-036",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Wardley Maps #Cloud #Serverless",
+    "host": "Markus",
     "room": "Flux Kompensator",
     "start": "2019-11-09T15:00:00+01:00",
     "end": "2019-11-09T16:00:00+01:00"
   },
   {
     "id": "SWEC19-01-037",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Emmett Brown",
     "start": "2019-11-09T15:00:00+01:00",
@@ -323,24 +330,24 @@
   },
   {
     "id": "SWEC19-01-038",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Gitlab API",
+    "host": "Tobias",
     "room": "Enterprise",
     "start": "2019-11-09T15:00:00+01:00",
     "end": "2019-11-09T16:00:00+01:00"
   },
   {
     "id": "SWEC19-01-039",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Entwickler zum Corporate Learning Coach",
+    "host": "Latti",
     "room": "Holodeck",
     "start": "2019-11-09T15:00:00+01:00",
     "end": "2019-11-09T16:00:00+01:00"
   },
   {
     "id": "SWEC19-01-040",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Software-Praktikanten und -Azubis",
+    "host": "Nora + Jörn",
     "room": "Spock",
     "start": "2019-11-09T15:00:00+01:00",
     "end": "2019-11-09T16:00:00+01:00"
@@ -359,7 +366,7 @@
 
   {
     "id": "SWEC19-01-041",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "R2D2",
     "start": "2019-11-09T16:00:00+01:00",
@@ -367,71 +374,71 @@
   },
   {
     "id": "SWEC19-01-042",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Flask und Python",
+    "host": "Josua",
     "room": "Millenium Falcon",
     "start": "2019-11-09T16:00:00+01:00",
     "end": "2019-11-09T17:00:00+01:00"
   },
   {
     "id": "SWEC19-01-043",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Desktop-App mit Webtools",
+    "host": "Frank",
     "room": "Han Solo",
     "start": "2019-11-09T16:00:00+01:00",
     "end": "2019-11-09T17:00:00+01:00"
   },
   {
     "id": "SWEC19-01-044",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Chatbots mit Python (Hand-On)",
+    "host": "Markus",
     "room": "DeLorean",
     "start": "2019-11-09T16:00:00+01:00",
     "end": "2019-11-09T17:00:00+01:00"
   },
   {
     "id": "SWEC19-01-045",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Testing Grundsätze (Diskussion)",
+    "host": "Jolanda",
     "room": "Marty McFly",
     "start": "2019-11-09T16:00:00+01:00",
     "end": "2019-11-09T17:00:00+01:00"
   },
   {
     "id": "SWEC19-01-046",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Infrastructure as Code (Terraform)",
+    "host": "Nora",
     "room": "Flux Kompensator",
     "start": "2019-11-09T16:00:00+01:00",
     "end": "2019-11-09T17:00:00+01:00"
   },
   {
     "id": "SWEC19-01-047",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Unsupervised Deep-Learning",
+    "host": "Stefan",
     "room": "Emmett Brown",
     "start": "2019-11-09T16:00:00+01:00",
     "end": "2019-11-09T17:00:00+01:00"
   },
   {
     "id": "SWEC19-01-048",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "",
+    "host": "",
     "room": "Enterprise",
     "start": "2019-11-09T16:00:00+01:00",
     "end": "2019-11-09T17:00:00+01:00"
   },
   {
     "id": "SWEC19-01-049",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Gamification Design Sprint",
+    "host": "Claudi",
     "room": "Holodeck",
     "start": "2019-11-09T16:00:00+01:00",
     "end": "2019-11-09T17:00:00+01:00"
   },
   {
     "id": "SWEC19-01-050",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Spock",
     "start": "2019-11-09T16:00:00+01:00",
@@ -448,15 +455,15 @@
   
   {
     "id": "SWEC19-01-051",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Docker-Images mit NIX package manager",
+    "host": "Thomas",
     "room": "R2D2",
     "start": "2019-11-09T17:00:00+01:00",
     "end": "2019-11-09T18:00:00+01:00"
   },
   {
     "id": "SWEC19-01-052",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Millenium Falcon",
     "start": "2019-11-09T17:00:00+01:00",
@@ -464,15 +471,15 @@
   },
   {
     "id": "SWEC19-01-053",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Software-Architektur Kata",
+    "host": "Stefan",
     "room": "Han Solo",
     "start": "2019-11-09T17:00:00+01:00",
     "end": "2019-11-09T18:00:00+01:00"
   },
   {
     "id": "SWEC19-01-054",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "DeLorean",
     "start": "2019-11-09T17:00:00+01:00",
@@ -480,23 +487,23 @@
   },
   {
     "id": "SWEC19-01-055",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Programmieren mit Minecraft",
+    "host": "Jens + Richard",
     "room": "Marty McFly",
     "start": "2019-11-09T17:00:00+01:00",
     "end": "2019-11-09T18:00:00+01:00"
   },
   {
     "id": "SWEC19-01-056",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Destroy your Project",
+    "host": "Nico und Kerstin",
     "room": "Flux Kompensator",
     "start": "2019-11-09T17:00:00+01:00",
     "end": "2019-11-09T18:00:00+01:00"
   },
   {
     "id": "SWEC19-01-057",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Emmett Brown",
     "start": "2019-11-09T17:00:00+01:00",
@@ -504,15 +511,15 @@
   },
   {
     "id": "SWEC19-01-058",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "",
+    "host": "Daniel",
     "room": "Enterprise",
     "start": "2019-11-09T17:00:00+01:00",
     "end": "2019-11-09T18:00:00+01:00"
   },
   {
     "id": "SWEC19-01-059",
-    "title": "amazing session",
+    "title": "",
     "host": "you?",
     "room": "Holodeck",
     "start": "2019-11-09T17:00:00+01:00",
@@ -520,8 +527,8 @@
   },
   {
     "id": "SWEC19-01-060",
-    "title": "amazing session",
-    "host": "you?",
+    "title": "Not so yoga, but agile",
+    "host": "Christian",
     "room": "Spock",
     "start": "2019-11-09T17:00:00+01:00",
     "end": "2019-11-09T18:00:00+01:00"

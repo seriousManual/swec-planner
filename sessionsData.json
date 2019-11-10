@@ -1,171 +1,91 @@
 [
   {
-    "id": "SWEC19-01-001",
+    "id": "SWEC19-02-000",
     "title": "amazing session",
-    "host": "you?",
-    "room": "R2D2",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
+    "host":"you?",
+    "room": "R2D2 🤖",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-002",
+    "id": "SWEC19-02-001",
     "title": "amazing session",
     "host": "you?",
-    "room": "Millenium Falcon",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
+    "room": "Millenium Falcon 🚀",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-003",
+    "id": "SWEC19-02-002",
     "title": "amazing session",
     "host": "you?",
-    "room": "Han Solo",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
+    "room": "Han Solo 🔫",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-004",
+    "id": "SWEC19-02-003",
     "title": "amazing session",
     "host": "you?",
-    "room": "DeLorean",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
+    "room": "DeLorean 🚗",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-005",
+    "id": "SWEC19-02-004",
     "title": "amazing session",
-    "host": "you?",
-    "room": "Marty McFly",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
+    "host":"you?",
+    "room": "Marty McFly 🎀",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-006",
+    "id": "SWEC19-02-005",
     "title": "amazing session",
-    "host": "you?",
-    "room": "Flux Kompensator",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
+    "host":"you?",
+    "room": "Flux Kompensator ⚡",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-007",
+    "id": "SWEC19-02-006",
     "title": "amazing session",
     "host": "you?",
-    "room": "Emmett Brown",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
+    "room": "Emmett Brown 👨‍⚕️",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-008",
+    "id": "SWEC19-02-007",
     "title": "amazing session",
     "host": "you?",
-    "room": "Enterprise",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
+    "room": "Enterprise 🛸",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-009",
+    "id": "SWEC19-02-008",
     "title": "amazing session",
     "host": "you?",
-    "room": "Holodeck",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
+    "room": "Holodeck ✨",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-010",
+    "id": "SWEC19-02-009",
     "title": "amazing session",
     "host": "you?",
-    "room": "Spock",
-    "start": "2019-11-09T11:00:00+01:00",
-    "end": "2019-11-09T12:00:00+01:00"
-  },
-
-
-
-
-
-
-
-
-  {
-    "id": "SWEC19-01-011",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "R2D2",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
+    "room": "Spock 🖖",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-012",
+    "id": "SWEC19-02-0091",
     "title": "amazing session",
     "host": "you?",
-    "room": "Millenium Falcon",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-013",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Han Solo",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-014",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "DeLorean",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-015",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Marty McFly",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-016",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Flux Kompensator",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-017",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Emmett Brown",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-018",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Enterprise",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-019",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Holodeck",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-020",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Spock",
-    "start": "2019-11-09T12:00:00+01:00",
-    "end": "2019-11-09T13:00:00+01:00"
+    "room": "Bällebad ⚽",
+    "start": "2019-11-10T10:30:00+01:00",
+    "end": "2019-11-10T11:15:00+01:00"
   },
 
 
@@ -176,174 +96,93 @@
 
 
 
-
   {
-    "id": "SWEC19-01-021",
+    "id": "SWEC19-02-010",
     "title": "amazing session",
-    "host": "you?",
-    "room": "R2D2",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
+    "host":"you?",
+    "room": "R2D2 🤖",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-022",
+    "id": "SWEC19-02-011",
     "title": "amazing session",
     "host": "you?",
-    "room": "Millenium Falcon",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
+    "room": "Millenium Falcon 🚀",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-023",
+    "id": "SWEC19-02-012",
     "title": "amazing session",
-    "host": "you?",
-    "room": "Han Solo",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
+    "host":"you?",
+    "room": "Han Solo 🔫",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-024",
+    "id": "SWEC19-02-013",
     "title": "amazing session",
     "host": "you?",
-    "room": "DeLorean",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
+    "room": "DeLorean 🚗",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-025",
+    "id": "SWEC19-02-014",
     "title": "amazing session",
     "host": "you?",
-    "room": "Marty McFly",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
+    "room": "Marty McFly 🎀",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-026",
+    "id": "SWEC19-02-015",
     "title": "amazing session",
     "host": "you?",
-    "room": "Flux Kompensator",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
+    "room": "Flux Kompensator ⚡",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-027",
+    "id": "SWEC19-02-016",
     "title": "amazing session",
     "host": "you?",
-    "room": "Emmett Brown",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
+    "room": "Emmett Brown 👨‍⚕️",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-028",
+    "id": "SWEC19-02-017",
     "title": "amazing session",
     "host": "you?",
-    "room": "Enterprise",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
+    "room": "Enterprise 🛸",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-029",
+    "id": "SWEC19-02-018",
     "title": "amazing session",
-    "host": "you?",
-    "room": "Holodeck",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
+    "host":"you?",
+    "room": "Holodeck ✨",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-030",
+    "id": "SWEC19-02-019",
     "title": "amazing session",
-    "host": "you?",
-    "room": "Spock",
-    "start": "2019-11-09T14:00:00+01:00",
-    "end": "2019-11-09T15:00:00+01:00"
-  },
-
-
-
-
-
-
-
-
-  {
-    "id": "SWEC19-01-031",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "R2D2",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
+    "host":"you?",
+    "room": "Spock 🖖",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-032",
+    "id": "SWEC19-02-0191",
     "title": "amazing session",
-    "host": "you?",
-    "room": "Millenium Falcon",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-033",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Han Solo",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-034",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "DeLorean",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-035",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Marty McFly",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-036",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Flux Kompensator",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-037",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Emmett Brown",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-038",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Enterprise",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-039",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Holodeck",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-040",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Spock",
-    "start": "2019-11-09T15:00:00+01:00",
-    "end": "2019-11-09T16:00:00+01:00"
+    "host":"you?",
+    "room": "Bällebad ⚽",
+    "start": "2019-11-10T11:30:00+01:00",
+    "end": "2019-11-10T12:15:00+01:00"
   },
 
 
@@ -356,174 +195,92 @@
 
 
 
-
   {
-    "id": "SWEC19-01-041",
+    "id": "SWEC19-02-020",
     "title": "amazing session",
-    "host": "you?",
-    "room": "R2D2",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
+    "host":"you?",
+    "room": "R2D2 🤖",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-042",
+    "id": "SWEC19-02-021",
     "title": "amazing session",
     "host": "you?",
-    "room": "Millenium Falcon",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
+    "room": "Millenium Falcon 🚀",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-043",
+    "id": "SWEC19-02-022",
     "title": "amazing session",
     "host": "you?",
-    "room": "Han Solo",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
+    "room": "Han Solo 🔫",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-044",
+    "id": "SWEC19-02-023",
     "title": "amazing session",
     "host": "you?",
-    "room": "DeLorean",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
+    "room": "DeLorean 🚗",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-045",
+    "id": "SWEC19-02-024",
     "title": "amazing session",
     "host": "you?",
-    "room": "Marty McFly",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
+    "room": "Marty McFly 🎀",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-046",
+    "id": "SWEC19-02-025",
     "title": "amazing session",
-    "host": "you?",
-    "room": "Flux Kompensator",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
+    "host":"you?",
+    "room": "Flux Kompensator ⚡",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-047",
+    "id": "SWEC19-02-026",
     "title": "amazing session",
     "host": "you?",
-    "room": "Emmett Brown",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
+    "room": "Emmett Brown 👨‍⚕️",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-048",
+    "id": "SWEC19-02-027",
     "title": "amazing session",
-    "host": "you?",
-    "room": "Enterprise",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
+    "host":"you?",
+    "room": "Enterprise 🛸",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-049",
+    "id": "SWEC19-02-028",
     "title": "amazing session",
     "host": "you?",
-    "room": "Holodeck",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
+    "room": "Holodeck ✨",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-050",
+    "id": "SWEC19-02-029",
     "title": "amazing session",
     "host": "you?",
-    "room": "Spock",
-    "start": "2019-11-09T16:00:00+01:00",
-    "end": "2019-11-09T17:00:00+01:00"
-  },
-
-
-
-
-
-
-
-
-  
-  {
-    "id": "SWEC19-01-051",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "R2D2",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
+    "room": "Spock 🖖",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   },
   {
-    "id": "SWEC19-01-052",
+    "id": "SWEC19-02-0291",
     "title": "amazing session",
     "host": "you?",
-    "room": "Millenium Falcon",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-053",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Han Solo",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-054",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "DeLorean",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-055",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Marty McFly",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-056",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Flux Kompensator",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-057",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Emmett Brown",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-058",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Enterprise",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-059",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Holodeck",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
-  },
-  {
-    "id": "SWEC19-01-060",
-    "title": "amazing session",
-    "host": "you?",
-    "room": "Spock",
-    "start": "2019-11-09T17:00:00+01:00",
-    "end": "2019-11-09T18:00:00+01:00"
+    "room": "Bällebad ⚽",
+    "start": "2019-11-10T12:30:00+01:00",
+    "end": "2019-11-10T13:15:00+01:00"
   }
 ]

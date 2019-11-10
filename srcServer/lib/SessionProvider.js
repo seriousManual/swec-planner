@@ -43,7 +43,7 @@ class SessionProvider extends EventEmitter {
     sessions = sessions.map(session => {
       return {
         ...session,
-        title: hyphenator.hyphenateText(session.title)
+        //title: hyphenator.hyphenateText(session.title)
       };
     });
 
