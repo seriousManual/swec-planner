@@ -8,6 +8,7 @@
     "dedupe": "^2.1.0",
     "express": "^4.16.3",
     "faker": "^4.1.0",
+    "google-spreadsheet": "^2.0.8",
     "hyphenation.de": "^0.2.1",
     "hypher": "^0.2.5",
     "moment": "^2.22.2",

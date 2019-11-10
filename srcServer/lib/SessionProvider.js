@@ -1,69 +1,44 @@
 const { EventEmitter } = require('events');
 
-const chokidar = require('chokidar');
-const Hypher = require('hypher');
-const german = require('hyphenation.de');
-
+const getSessions = require('./spreadSheet');
 const sessionComparator = require('./sessionsComparator');
-const jsonFileLoader = require('./jsonFileLoader');
-
-const hyphenator = new Hypher(german);
 
 class SessionProvider extends EventEmitter {
-  constructor(filePath) {
+  constructor() {
     super();
-    this._filePath = filePath;
     this._currentData = [];
-
-    this._installFileWatcher();
 
     this.loadSessionData().then(sessions => {
       this._currentData = sessions;
       this.emit('initialized');
     }).catch(console.error);
+
+    setInterval(async () => {
+      console.log('polling');
+
+      this.handleUpdate(await this.loadSessionData());
+    }, 10000);
   }
 
-  _installFileWatcher() {
-    chokidar.watch(this._filePath, { usePolling: true, interval: 500 })
-      .on('change', () => this._handleFileUpdate())
-      .on('error', error => console.error('Chokidar error: ', error));
-  }
-
-  async _handleFileUpdate() {
+  async handleUpdate(newSessions) {
     const oldList = this._currentData;
-    this._currentData = await this.loadSessionData();
+    this._currentData = newSessions;
 
     sessionComparator(oldList, this._currentData)
-      .forEach(change => this.emit('sessionUpdate', change));
+      .forEach(change => {
+        this.emit('sessionUpdate', change)
+        console.log(change);
+      });
   }
 
   async loadSessionData() {
-    let sessions = await jsonFileLoader.loadJsonFile(this._filePath);      
+    const sessions = await getSessions();
 
-    sessions = sessions.map(session => {
-      return {
-        ...session,
-        //title: hyphenator.hyphenateText(session.title)
-      };
-    });
-
-    return sessions
+    return sessions;
   }
 
   async getSessions() {
     return this._currentData;
-  }
-
-  _validate(data) {
-    if (!Array.isArray(data)) {
-      throw new Error('must be an array');
-    }
-
-    if (data.length === 0) {
-      throw new Error('can not be empty');
-    }
-
-    return data;
   }
 }
 
